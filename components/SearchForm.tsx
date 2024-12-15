@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { useState } from 'react';
+import { Input } from './ui/input';
 
 const SearchForm = () => {
     const [search, setSearch] = useState('');
