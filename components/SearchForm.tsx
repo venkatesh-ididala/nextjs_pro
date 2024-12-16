@@ -11,6 +11,7 @@ const SearchForm = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
+  console.log(pathname);
 
   const [search, setSearch] = useState('');
 
