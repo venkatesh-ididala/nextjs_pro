@@ -33,4 +33,4 @@ interface Props {
     )
   }
   
-  export default Header
+  export default Header;
